@@ -1,0 +1,22 @@
+/*
+ Theme Name:     Hello-elementor Child Theme
+ Description:    Hello-elementor Child Theme
+ Template:       Hello-elementor
+*/
+ 
+
+.entry-title {
+    display: none !important;
+    }
+
+.site-title {
+    display: none !important;
+    }
+
+.site-description {
+    display: none !important;
+    }
+
+.copyright {
+    display: none !important;
+    }
