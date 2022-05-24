@@ -3,7 +3,11 @@
  Description:    Hello-elementor Child Theme
  Template:       Hello-elementor
 */
- 
+body{
+	background-image: url("data:image/svg+xml,%3Csvg width='2386' height='3244' viewBox='0 0 2386 3244' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M3.66602 434.083C1002.22 1315.97 846.391 2302.25 1961.91 3240.31' stroke='%233F3FAB' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M213.793 218.788C1212.35 1100.67 1056.52 2086.95 2172.04 3025.01' stroke='%231E3EFF' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M423.924 3.49121C1422.48 885.378 1266.65 1871.66 2382.17 2809.72' stroke='%23CAD1E1' stroke-width='6' stroke-linecap='round'/%3E%3C/svg%3E");
+
+}
+
 
 .entry-title {
     display: none !important;
@@ -20,3 +24,28 @@
 .copyright {
     display: none !important;
     }
+
+
+@font-face {
+    font-family: 'sansation_lightlight';
+    src: url('./fonts/Sansation-Light-webfont.eot');
+    src: url('./fonts/Sansation-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/Sansation-Light-webfont.woff2') format('woff2'),
+         url('./fonts/Sansation-Light-webfont.woff') format('woff'),
+         url('./fonts/Sansation-Light-webfont.ttf') format('truetype'),
+         url('./fonts/Sansation-Light-webfont.svg#sansation_lightlight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+ .sansation-skrift h2{
+	font-family: sansation_lightlight !important;
+
+ }
+
+ .menu-item a{
+    font-family: sansation_lightlight !important;
+ }
+ 
